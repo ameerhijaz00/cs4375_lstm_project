@@ -7,7 +7,7 @@ def mse(pred, true):
     return np.mean((pred - true) ** 2)
 
 def main():
-    data = load_dataset("data/daily-min-temperatures.csv")
+    data = load_dataset()
     scaled, scaler = scale_data(data)
 
     window = 10
