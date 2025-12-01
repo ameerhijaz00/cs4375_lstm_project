@@ -24,6 +24,11 @@ The following files will be generated:
 - results/metrics.txt
 - logs/experiments_log.txt
 
+## Dataset:
+Daily Minimum Temperatures (Melbourne)
+Source: https://raw.githubusercontent.com/jbrownlee/Datasets/master/daily-min-temperatures.csv
+
+
 ## Project Structure
 
 cs4375_ml_project/
